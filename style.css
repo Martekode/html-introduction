@@ -53,7 +53,12 @@ tr,td{
 }
 body{
     background-image:url("cool-background.png");
-    background-repeat: no-repeat;
-    font-family: "Roboto Light";
+    background-repeat: repeat-y;
     color: wheat;
+}
+h1,h2,h3,h4,h5{
+    font-family: "Arial Black";
+}
+p{
+    font-family: "Roboto Light";
 }
