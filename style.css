@@ -13,6 +13,9 @@ table {
     border: solid;
     border-width: 2px;
 }
+#relax{
+    text-align: center;
+}
 tr,td{
     border: black;
     border: solid;
