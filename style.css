@@ -1,0 +1,32 @@
+#nameBig {
+    font-size: 50px;
+    text-align: center;
+}
+#blue{
+    color: blue;
+}
+#quote{
+    text-align: center;
+}
+table {
+    border: black;
+    border: solid;
+    border-width: 2px;
+}
+tr,td{
+    border: black;
+    border: solid;
+    border-width: 2px;
+}
+#nameLinks{
+    text-align: center;
+    padding-top:30px ;
+}
+img{
+    width: 250px;
+    height: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
