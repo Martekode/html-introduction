@@ -22,11 +22,33 @@ tr,td{
     text-align: center;
     padding-top:30px ;
 }
-img{
+#muggy{
     width: 250px;
     height: 300px;
     display: block;
     margin-right: auto;
     margin-left: auto;
-    
+    border:solid;
+    border-width:2px;
+}
+
+
+#boxLan{
+    position: relative;
+    float: right;
+    width: 40%;
+    margin-right:auto;
+    margin-left: 10%;
+
+}
+#boxLeft{
+    width: 50%;
+    position: relative;
+
+}
+body{
+    background-image:url("cool-background.png");
+    background-repeat: no-repeat;
+    font-family: "Roboto Light";
+    color: wheat;
 }
