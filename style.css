@@ -1,6 +1,7 @@
 #nameBig {
     font-size: 50px;
     text-align: center;
+    color: wheat;
 }
 #blue{
     color: blue;
@@ -8,11 +9,13 @@
 #quote{
     text-align: center;
     font-style: italic;
+    color: wheat;
 }
 table {
     border: black;
     border: solid;
     border-width: 2px;
+    margin-top: 10%;
 
 }
 #relax{
@@ -33,6 +36,7 @@ tr,td{
     display: block;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 5%;
     border:solid;
     border-width:2px;
 }
@@ -52,16 +56,22 @@ tr,td{
 
 }
 body{
-    background-image:url("cool-background.png");
-    background-repeat: repeat-y;
-    color: wheat;
+    background-color: wheat;
+    color: indigo;
 }
 h1,h2,h3,h4,h5{
     font-family: "Arial Black";
 }
 p{
-    font-family: "Roboto Light";
+    font-family: inherit;
 }
 a{
-    color: aquamarine;
+    color: indigo;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    background-color: indigo;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
