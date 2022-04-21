@@ -1,7 +1,9 @@
 #nameBig {
     font-size: 50px;
     text-align: center;
-    color: wheat;
+    color: white;
+    opacity: 100%;
+
 }
 #blue{
     color: blue;
@@ -9,7 +11,7 @@
 #quote{
     text-align: center;
     font-style: italic;
-    color: wheat;
+    color:#e8d266;
 }
 table {
     border: black;
@@ -20,6 +22,7 @@ table {
 }
 #relax{
     text-align: center;
+
 }
 tr,td{
     border: black;
@@ -31,17 +34,24 @@ tr,td{
     padding-top:30px ;
 }
 #muggy{
-    width: 250px;
-    height: 300px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 5%;
-    border:solid;
-    border-width:2px;
+    width: 40%;
+    height: 80%;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin-right: 30%;
+    margin-left: 30%;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,.2);
 }
+#imgBox{
+    width: 30%;
+    padding:2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: inset 0 0 2000px rgba(255,255,255,.5);
 
-
+}
 #boxLan{
     position: relative;
     float: right;
@@ -56,22 +66,29 @@ tr,td{
 
 }
 body{
-    background-color: wheat;
-    color: indigo;
+    background-color: #26356e;
+    color: white;
 }
 h1,h2,h3,h4,h5{
-    font-family: "Arial Black";
+    font-family: Candara;
+    opacity: 1;
+    z-index: 1;
 }
 p{
-    font-family: inherit;
+    font-family: "Agency FB";
 }
 a{
     color: indigo;
 }
-.banner{
+.banner {
     width: 100%;
     height: auto;
-    background-color: indigo;
     padding-top: 1%;
     padding-bottom: 1%;
+    border-radius: 10px;
+    box-shadow: inset 0 0 2000px rgba(255,255,255,.5);
+    z-index: 0;
+}
+.container{
+    position: relative;
 }
